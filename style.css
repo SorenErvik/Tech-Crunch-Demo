@@ -1,0 +1,177 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+background-color: white;
+margin: 0;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+nav,main,aside{
+  width: 10%;
+  float: left;
+}
+main{
+  width: 55%;
+  height:50%
+}
+aside{
+  width:35%;
+  text-align: center;
+}
+header {
+
+}
+#TCLogo {
+  height: 100px;
+}
+#WWomanPic {
+  height: 100%;
+  width: 100%;
+}
+p {
+  color: gray;
+}
+span {
+  color: gray;
+}
+a {
+  color: gray;
+  text-decoration: none;
+  list-style-type: none;
+}
+#SideArticle1 {
+  border-bottom: solid gray 1px;
+}
+#SideArticle2 {
+  border-bottom: solid gray 1px;
+}
+#SideArticle3 {
+  border-bottom: solid gray 1px;
+}
+#FinTechPic {
+  max-height: 60%;
+  Width:55%;
+  padding: 5px 0px 15px 20px;
+  position: absolute;
+}
+aside > ul > li {
+  padding: 0 0 0 40px;
+  text-align: left;
+  list-style: none;
+  font-size: x-large;
+  margin-top: 10px;
+  font-stretch:expanded;
+}
+aside > ul > li > span {
+  font-size: medium;
+  margin: 0px;
+}
+#NavSide > li {
+  list-style: none;
+  border-style: none;
+  outline: none;
+  text-align: left;
+  padding: 10px;
+}
+nav > h2 {
+  color: orange;
+  font-size: large;
+  padding: 0 10px 0 10px;
+}
+nav > h2 + a {
+  padding: 0 0 0 10px;
+  text-align: center;
+}
+ul { 
+  padding-left: 10px;
+}
+input {
+  outline: none;
+  border: none;
+}
+#NavSide {
+  Padding-left: 10%;
+}
+footer {
+
+}
+h1 {
+  margin-left: 20px;
+}
+main > h1 + p {
+  margin-left: 20px;
+}
+main > h1 + p + span {
+  margin-left: 20px;
+  color: black;
+}
+section {
+  margin-left: 11%;
+}
+h4 {
+  font-size:large;
+  border-bottom: solid gray 1px;
+}
+#Container1 {
+  float: left;
+  height: 100%;
+  width: 30%;
+  margin-top: 0;
+  box-sizing: border-box;
+  display: inline-block
+}
+#Container1 > h3 {
+  width: 100%;
+  box-sizing: border-box;
+  height: 100%;
+  font-size: x-large;
+}
+#Container2 {
+  width: 30%;
+  box-sizing:border-box;
+  display: inline-block;
+  float: left;
+}
+ section > h4 + h3+ span {
+   color: black;
+   width: 100%;
+ }
+ #Container2 > p {
+   max-width: 100%;
+   float: left;
+   color: gray;
+   height: 100%;
+   font-size: large;
+   padding-right: 20px;
+ }
+ #Container3 {
+   width: 30%;
+   display: inline-block;
+ }
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
